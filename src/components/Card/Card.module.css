@@ -1,0 +1,23 @@
+.container {
+  background-color: rgba(22, 90, 37, 0.411);
+  width: fit-content;
+  padding: 1em;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  -moz-box-shadow: 10px 10px 8px -3px rgba(40, 102, 150, 0.7);
+  -webkit-box-shadow: 10px 10px 8px -3px rgba(40, 103, 150, 0.7);
+  box-shadow: 10px 10px 8px -3px rgba(40, 103, 150, 0.7);
+}
+
+.closeButton {
+  background-color: rgba(255, 255, 0, 0.61);
+  width: fit-content;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px 0px rgba(66, 66, 66, 0.61);
+}
+
+.closeButton:hover {
+  background-color: gold;
+}
