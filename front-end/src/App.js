@@ -10,7 +10,7 @@ import Form from "./components/Form/Form";
 function App() {
   const [characters, setCharacters] = useState([]);
 
-  const apiURL = "https://be-a-rym.up.railway.app/api";
+  const apiURL = "https://be-a-rym.up.railway.app/api"; // cambiar a http://localhost:3001/rickandmorty.
   const apiKey = "98f9875a39a4.df6e7fa04c7e61b9cb13";
 
   const onSearch = (id) => {
